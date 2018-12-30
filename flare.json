@@ -1,0 +1,191 @@
+{
+ "name": "Machine Learning",
+ "children": [
+  {"name": "Supervised Learning",
+    "children": [
+     {"name": "Classification",
+       "children": [
+        {"name": "Logistic regression"},
+        {"name": "Naive Bayes"},
+        {"name": "Tree based",
+          "children": [
+          {"name": "ID3"},
+          {"name": "CART"},
+          {"name": "Random forest"},
+          {"name": "Extremely RT"},
+          {"name": "AdaBoost"},
+          {"name": "Gradient boosting"}
+         ]
+        },
+        {"name": "Neural networks",
+          "children": [
+          {"name": "Fully connected"},
+          {"name": "CNNs"},
+          {"name": "RNNs"}
+         ]
+        },
+        {"name": "Graph models",
+          "children": [
+          {"name": "MRF"},
+          {"name": "DBN"},
+          {"name": "MRF"},
+          {"name": "HMM"},
+          {"name": "CRF"}
+         ]
+        },
+        {"name": "K-nearest neighbors"},
+        {"name": "SVMs"}
+      ]
+     },
+     {"name": "Regression",
+       "children": [
+        {"name": "Ordinary least squares"},
+        {"name": "Generalized linear models"},
+        {"name": "Neural networks",
+          "children": [
+          {"name": "Fully connected"},
+          {"name": "CNNs"},
+          {"name": "RNNs"}
+         ]
+        },
+        {"name": "Tree based",
+          "children": [
+          {"name": "ID3"},
+          {"name": "CART"},
+          {"name": "Random forest"},
+          {"name": "Extremely RT"},
+          {"name": "AdaBoost"},
+          {"name": "Gradient boosting"}
+         ]
+        },
+        {"name": "SVR"}
+      ]
+     },
+     {"name": "Learning to rank",
+       "children": [
+        {"name": "Ordinal regression"},
+        {"name": "Ranking SVM"},
+        {"name": "AdaRank"},
+        {"name": "RankBoost"},
+        {"name": "RankNet"},
+        {"name": "LambdaRank"},
+        {"name": "LambdaMART"}
+      ]
+     },
+     {"name": "NLP",
+       "children": [
+        {"name": "CoVe"},
+        {"name": "RNN"},
+        {"name": "Bi-LSTM"},
+        {"name": "BERT"}
+      ]
+     },
+     {"name": "Recommendations",
+       "children": [
+        {"name": "Content based filtering",
+          "children": [
+          {"name": "K-nearest neighbors"},
+          {"name": "TFIDF"},
+          {"name": "Neural networks"}
+         ]
+        },
+        {"name": "Collaborative filtering",
+          "children": [
+          {"name": "Factorization - SGD"},
+          {"name": "Factorization - ALS"}
+         ]
+        },
+        {"name": "Association Rules"},
+        {"name": "Item2vec"},
+        {"name": "Hybrid",
+          "children": [
+          {"name": "CF + CNN"},
+          {"name": "CF + RNN"},
+          {"name": "CF + Item2vec"}
+         ]
+        }
+      ]
+     }
+    ]
+  },
+  {"name": "Unsupervised Learning",
+   "children": [
+     {"name": "Clustering",
+       "children": [
+        {"name": "Kmeans"},
+        {"name": "Gaussian mixture"},
+        {"name": "Kmedoids"},
+        {"name": "Minibatch Kmeans"},
+        {"name": "Birch"},
+        {"name": "Mean Shift"},
+        {"name": "DBSCAN"},
+        {"name": "Affinity Propagation"},
+        {"name": "Spectral clustering"},
+        {"name": "Agglomerative clustering"},
+        {"name": "Ward"}
+      ]
+     },
+     {"name": "Anomaly detection",
+       "children": [
+        {"name": "Minimum Covariance Determinant"},
+        {"name": "One class SVM"},
+        {"name": "Isolation Forest"},
+        {"name": "Local Outlier Factor"}
+      ]
+     },
+     {"name": "NLP",
+       "children": [
+        {"name": "Word2vec"},
+        {"name": "Topic models"},
+        {"name": "RNNs"},
+        {"name": "ELMO"}
+      ]
+     },
+     {"name": "Representation learning",
+       "children": [
+        {"name": "Feature learning",
+          "children": [
+          {"name": "RBM"},
+          {"name": "GRP"},
+          {"name": "Sparse coding"},
+          {"name": "(V)AE"}
+         ]
+        },
+        {"name": "Multitask learning"},
+        {"name": "Domain mapping"},
+        {"name": "Generative Adversarial Networks"}
+      ]
+     },
+     {"name": "Dimensionality reduction",
+       "children": [
+        {"name": "(Kernel) Principal Component Analysis"},
+        {"name": "Factor Analysis"},
+        {"name": "Independent Component Analysis"},
+        {"name": "t-SNE"},
+        {"name": "Uniform Manifold Approximation and Projection"}
+      ]
+     }
+    ]
+  },
+  {"name": "Reinforcement Learning",
+    "children": [
+     {"name": "Value iteration"},
+     {"name": "Policy iteration"}, 
+     {"name": "REINFORCE"},
+     {"name": "Natural policy gradient"},
+     {"name": "Q-learning"},
+     {"name": "SARSA"},
+     {"name": "Hybrid",
+       "children": [
+        {"name": "A3C"},
+        {"name": "ACER"},  
+        {"name": "TRPO"},
+        {"name": "NAF"},
+        {"name": "Curiosity based"},
+        {"name": "Intrinsic motivation"}
+      ]
+     }
+    ]
+  }
+ ]
+}
